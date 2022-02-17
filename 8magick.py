@@ -9,3 +9,6 @@ def get_answer(answer_number):
         return 'Yes'
     elif answer_number == 4:
         return 'Reply hazy try again'
+    elif answer_number == 5:
+        return 'Ask again later'
+
