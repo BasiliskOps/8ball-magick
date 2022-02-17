@@ -20,13 +20,13 @@ def get_answer(answer_number):
     elif answer_number == 9:
         return 'Very doubtful'
 
-x = random.randint(1, 9)
-fortune = get_answer(x)
+# x = random.randint(1, 9)
+# fortune = get_answer(x)
 
 print('What is it that you seek, traveler?')
 desire = input()
 
-print(fortune)
+print(get_answer(random.randint(1, 9)))
 
     
 
