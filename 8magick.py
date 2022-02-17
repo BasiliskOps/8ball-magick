@@ -13,6 +13,9 @@ def get_answer(answer_number):
         return 'Ask again later'
     elif answer_number == 6:
         return 'Concentrate and ask again'
+    elif answer_number == 7:
+        return 'My reply is no'
+        
 
     
 
