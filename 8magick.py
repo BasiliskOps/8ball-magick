@@ -11,4 +11,8 @@ def get_answer(answer_number):
         return 'Reply hazy try again'
     elif answer_number == 5:
         return 'Ask again later'
+    elif answer_number == 6:
+        return 'Concentrate and ask again'
+
+    
 
