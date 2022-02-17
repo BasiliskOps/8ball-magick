@@ -17,6 +17,8 @@ def get_answer(answer_number):
         return 'My reply is no'
     elif answer_number == 8:
         return 'Outlook not so good'
+    elif answer_number == 9:
+        return 'Very doubtful'
 
     
 
