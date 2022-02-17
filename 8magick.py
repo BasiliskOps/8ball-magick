@@ -21,6 +21,8 @@ def get_answer(answer_number):
         return 'Very doubtful'
 
 x = random.randint(1, 9)
+fortune = get_answer(x)
+print(fortune)
 
     
 
