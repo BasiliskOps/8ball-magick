@@ -22,6 +22,8 @@ def get_answer(answer_number):
 
 x = random.randint(1, 9)
 fortune = get_answer(x)
+
+print('What is it that you seek, traveler?')
 print(fortune)
 
     
