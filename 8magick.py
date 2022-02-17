@@ -7,3 +7,5 @@ def get_answer(answer_number):
         return 'It is decidedly so'
     elif answer_number == 3:
         return 'Yes'
+    elif answer_number == 4:
+        return 'Reply hazy try again'
